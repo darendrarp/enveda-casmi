@@ -1,0 +1,19 @@
+# Local environment and data (never committed)
+.venv/
+__pycache__/
+*.pyc
+data/
+runs/
+wheels/
+*.log
+*.pt
+*.pth
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Test cache
+.pytest_cache/

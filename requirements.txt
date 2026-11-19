@@ -1,0 +1,15 @@
+# Local development / testing requirements (Python 3.10+).
+# The Kaggle notebook only needs rdkit installed (torch, pandas, numpy,
+# scipy, scikit-learn are preinstalled in Kaggle images).
+numpy>=1.26
+pandas>=2.0
+pyarrow>=14
+scipy>=1.11
+scikit-learn>=1.3
+rdkit>=2024.03
+nbformat>=5.9
+pytest>=7.0
+# CPU-only torch for local smoke training (install separately — the
+# download.pytorch.org index can be slow behind some proxies):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0
